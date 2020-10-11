@@ -3,6 +3,7 @@
 #include <fstream>
 #include<list>
 using namespace std;
+int sem_wait(sem_t** sem);//lock the function using semaphores
 void Department::billing()
 {
 	

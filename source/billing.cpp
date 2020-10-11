@@ -85,4 +85,5 @@ void Department::billing()
 		cout << "Items not ordered" << endl;
 		exit(0);
 	}
+	int sem_post(sem_t * *sem);//unlock the function
 }
